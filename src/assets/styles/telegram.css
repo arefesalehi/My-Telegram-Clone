@@ -1,0 +1,8 @@
+.telegram {
+    width: 60%;
+    height: 90vh;
+    background-color:#1f1f1f;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

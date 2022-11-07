@@ -1,0 +1,61 @@
+.sidebar-thread{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #22233F;
+    cursor: pointer;
+    color: white;
+    height: 60px;
+    max-width: 100%;
+    position: relative;
+}
+
+.sidebar-thread:hover{
+    background-color:#6790E2;
+    border-radius: 0 15px 15px 0;
+}
+
+.sidebar-thread:hover div  {
+    color: white;
+}
+.sidebar-thread:hover small {
+    color: white;
+}
+
+.avatar{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.sidebarThread-detail {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.sidebarThread-detail h4{
+    color: white;
+    top:5px;
+    right: 40px;
+    margin-top: 15px;
+}
+
+.sidebarThread-detail div{
+    max-width: 70%;
+    line-height: 10px;
+    color: #5B76C3;
+    height: 1.6em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;   
+}
+
+.sidebarThread-timeStamp{
+    position: absolute;
+    right:20px;
+    top:6px;
+    color: #9095B5;
+}

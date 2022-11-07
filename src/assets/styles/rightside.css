@@ -1,0 +1,13 @@
+.rightside-dropdown button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.rightside-dropdown span {
+    color: white;
+}
+
+.rightside-dropdown {
+    background-color:#394269;
+}

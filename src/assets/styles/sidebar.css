@@ -1,0 +1,84 @@
+.sidebar{
+    display: flex;
+    flex: 0.32;
+    flex-direction: column;
+    background-color:#282945;   
+    border-right: 2px solid #22233F;
+    position: relative;
+    width: 32%;
+}
+
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid#22233F;
+    height: 50px;
+    color: white;
+    margin-left: 13px;   
+}
+
+
+.sidebar-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: #1F2034;
+    border-color: transparent; 
+}
+
+.sidebar-button{
+    width: 34px;
+    height: 34px;    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.sidebar-button:hover {
+    color: white;
+    background-color:#394269;
+    border-radius: 50%;
+}
+
+.sidebar-searchIcon {
+    color: white;
+}
+
+.ant-input:placeholder-shown {
+    text-overflow: ellipsis;
+    background-color: #1F2034 ;  
+}
+
+.sidebar-bottom{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.sidebar-bottom button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5B76C3;
+    border: none;
+}
+
+.sidebar-bottom button:hover{
+    background-color: #5B76C3;
+}
+
+.sidebarthread-content{
+    overflow: scroll;
+    flex: 1;
+}
+
+.sidebarthread-content::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,131 @@
+.chatside1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    background:url('../images/papers.co-mm53-snow-walk-winter-dark-blue-bokeh-footprints-nature-mountain-41-iphone-wallpaper\ \(3\).jpg') no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.chatside-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#22233F;
+    height: 50px;
+    background-color:#282945;
+    padding:10px 2px;
+    width: 100%;
+}
+
+.anticon-search svg{
+    color: white;
+}
+
+.chatside-header img{
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.ant-image-preview-img{
+    max-width: 35%;
+}
+
+.chatsideheader-profile{
+    line-height: 10px;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+}
+
+.chatsideheader-profile h4{
+    color: white;
+}
+
+.chatsideheader-profile p{
+    color:  #5B76C3
+}
+
+.chatsideHeader-right button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 36px; 
+    width: 40px; 
+    padding: 2px;
+}
+
+.chatside-header button:hover{
+    background-color: #394269;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.chatside-bottom{
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatsidebottom-input {
+    margin: 0 15px 0 15px;
+    height: 38px;
+    background-color:#1F2034;
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;   
+}
+
+.chatsidebottom-input ::placeholder {
+    background-color: #1F2034;
+    color: white;
+    outline: 0;
+    width: 100%;
+    padding-left: 3px;
+}
+
+.ant-input-affix-wrapper  input.ant-input {
+    background-color:#1F2034;
+    color: white;
+}
+
+.chatside-bottom button{
+    width: 38px;
+    height: 38px;    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color:#1F2034;
+    border: none;
+    color: white;
+    padding-left: 19px;
+    margin-bottom: 1px;
+    margin-left: -10px;
+
+}
+
+.chatside-bottom button:hover{
+    background-color:#1F2034;
+    color: white;
+}
+
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    background-color:#1F2034;
+    color: white;
+}
+
+
+
+
+

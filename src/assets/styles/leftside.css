@@ -1,0 +1,30 @@
+.leftside-drawer{
+    left:500;
+}
+
+.leftside-dropdown{
+    display: flex;
+    flex-direction: column;
+    width:15vw;
+    position: absolute;
+    background-color: #394269;   
+}
+
+.ant-dropdown-menu-item-only-child:hover{
+    background-color:#6790E2;
+}
+
+
+.leftside-dropdown button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.leftside-dropdown span {
+    color: white;
+}
+
+.overlay{
+    display: flex;
+}
